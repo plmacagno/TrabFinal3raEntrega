@@ -1,0 +1,40 @@
+.header{
+    background: $colorHeader;
+    
+    img{
+        width: 15%;
+    }
+    nav {
+        background: $colorHeader;
+        
+    }
+        a:hover{
+         background-color: cadetblue;
+         
+        }
+
+    h1 {
+        color: $colorTexto;
+        padding: 2 rem;
+        padding-top: 10px;
+
+               font: {
+            family: sans-serif;
+            size: 35px;
+        }
+
+        li {
+            color: $colorTexto;
+
+        }
+
+       }
+}
+
+/*tamaño celular*/
+@media (max-width: 620px) {
+    
+    .header img{
+       width: 30%;
+    }
+}

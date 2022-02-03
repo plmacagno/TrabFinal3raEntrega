@@ -1,0 +1,31 @@
+footer {
+    background: $colorFooter;
+
+    .face {
+        color: $colorFace;
+    }
+
+    .insta {
+        color: $colorInstagram;
+    }
+
+    i {
+        font-size: 60px;
+    }
+
+
+    h3 {
+        @include fontStyle ($colorTexto, 36px, 300);
+    }
+
+}
+
+/*tamaño celular*/
+@media (max-width: 620px) {
+    footer iframe {
+        display: none;
+    }
+    footer h3{
+        font-size: 15px;
+    }
+}

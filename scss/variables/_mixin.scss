@@ -1,0 +1,13 @@
+@mixin fontStyle ($colorTexto, $tamanio, $peso){
+    color: $colorTexto;
+    font-size: $tamanio;
+    font-weight: $peso;
+    text-transform: lowercase;
+    text-decoration:solid;
+    
+}
+
+
+
+   
+   
